@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(172, 170, 170);
+    color: white;
+}
+header{
+    text-align: center;
+    padding: 1rem;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    
+}
+
+.description{
+    margin-top: 3rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+.description div{
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: justify;
+
+}
+
+.about{
+    display: flex;
+    margin-top: 3rem;
+    width: 100%;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+.about div{
+    width: 40%;
+    padding: 1rem;
+    text-align: justify;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+    
+}
+.about img{
+    margin-left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  
+}
+.article{
+    margin-top: 3rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+
+.article article{
+    border: 2px solid rgb(12, 11, 11);
+    border-radius: 1em;
+    width: 30%;
+    padding: 1rem;
+    text-align: justify;
+
+}
+
+.form{
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 2px solid rgb(12, 11, 11);
+    padding: 1rem;
+    padding-right: 2rem;
+    border-radius: 6px;
+
+
+}
+input[type=radio]{
+    margin-bottom: 1rem;
+}
+input[type=text],[type=email],[type=password],[type=number],select{
+    /* width: 50%; */
+    width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+button[type=submit] {
+    border: 2px solid rgba(0, 0, 0, 0.897);
+    color: rgb(10, 10, 10);
+    margin-top: 1rem;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  footer{
+    padding: 1rem;
+    text-align: center;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 10px;
+    font-style: italic;
+    font-weight: bolder;
+
+}
