@@ -1,4 +1,5 @@
 ***Exercise 3.2***
+
 Bind()
 The bind method creates a new function and sets the this keyword to the specified object.
 
